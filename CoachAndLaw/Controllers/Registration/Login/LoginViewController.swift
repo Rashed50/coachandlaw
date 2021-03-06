@@ -33,6 +33,13 @@ class LoginViewController: UIViewController {
         gotoNextView()
     }
     
+    
+    
+    func login(){
+       // APIRequest.sharedInstance
+        
+    }
+    
     func gotoNextView(){
         let appDelegate = UIApplication.shared.delegate as! AppDelegate
         

@@ -26,11 +26,16 @@ class RegistrationViewController: UIViewController {
 
         self.navigationController?.isNavigationBarHidden = true
           self.view.backgroundColor = Helper.getAppColor()
-        let videoUrl = "https://www.starhairbd.com/video/login_bg_video.mp4"
+       // let videoUrl = "https://www.starhairbd.com/video/login_bg_video.mp4"
+        let videoUrl = "https://www.starhairbd.com/video/third_hd.mp4"
+        
       //  let videoUrl = "https://www.starhairbd.com/video/myvideo.mp4"
         VideoPlayerView.configure(url: videoUrl)
         VideoPlayerView.isLoop = true
         VideoPlayerView.play()
+        
+        
+         
         
         SignUpButton.layer.cornerRadius = 10;
         SignUpButton.clipsToBounds = true
@@ -73,6 +78,7 @@ class RegistrationViewController: UIViewController {
         }
         self.navigationController?.pushViewController(initialViewController, animated: true)
       }
+    
     
     
     

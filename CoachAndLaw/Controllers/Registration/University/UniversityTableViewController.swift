@@ -7,17 +7,25 @@
 //
 
 import UIKit
+
+
+@objc protocol SelectedDataDelegate {
+    func selectedRowData(currName: String,dataType:String)
+}
   
 class UniversityTableViewController: UITableViewController {
 
     var infoType:String = ""
     var universityLit = [String]()
+    
+    weak var delegate: SelectedDataDelegate?
     override func viewDidLoad() {
         super.viewDidLoad()
 
         
        self.view.backgroundColor = Helper.getAppColor()
         loadTableData()
+        
        
     }
     
@@ -46,12 +54,15 @@ class UniversityTableViewController: UITableViewController {
         
         return cell
     }
-    
-    func tableView(tableView: UITableView, didSelectRowAtIndexPath indexPath: NSIndexPath) {
-           print("You selected cell #\(indexPath.row)!")
-        let cell = tableView.cellForRow(at: indexPath as IndexPath)
-        dismiss(animated: true, completion: nil)
+    override func tableView(_ tableView: UITableView, didSelectRowAt indexPath: IndexPath) {
+         print("You selected cell #\(indexPath.row)!")
+         //   let cell = tableView.cellForRow(at: indexPath as IndexPath)
+            
+            delegate?.selectedRowData(currName: universityLit[indexPath.row],dataType:infoType)
+            dismiss(animated: true, completion: nil)
     }
+    
+  
 
      
     

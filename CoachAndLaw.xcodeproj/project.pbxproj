@@ -3,7 +3,7 @@
 	archiveVersion = 1;
 	classes = {
 	};
-	objectVersion = 50;
+	objectVersion = 51;
 	objects = {
 
 /* Begin PBXBuildFile section */
@@ -24,10 +24,18 @@
 		0D444A1225DF74FE00E80FD4 /* SettingViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0D444A1125DF74FE00E80FD4 /* SettingViewController.swift */; };
 		0D444A1525DF7CA800E80FD4 /* NotificationTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0D444A1425DF7CA800E80FD4 /* NotificationTableViewController.swift */; };
 		0D444A1B25DF884300E80FD4 /* Helper.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0D444A1A25DF884300E80FD4 /* Helper.swift */; };
+		0DAC14A125EC7CAF00F566E7 /* logo_tran.png in Resources */ = {isa = PBXBuildFile; fileRef = 0DAC14A025EC7CAF00F566E7 /* logo_tran.png */; };
 		0DC9D6DD25E9FD62001D8F0A /* logo_2.png in Resources */ = {isa = PBXBuildFile; fileRef = 0DC9D6DC25E9FD62001D8F0A /* logo_2.png */; };
 		0DC9D6E225EA10E1001D8F0A /* SignupViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0DC9D6E125EA10E1001D8F0A /* SignupViewController.swift */; };
 		0DC9D6E425EA2940001D8F0A /* logo.png in Resources */ = {isa = PBXBuildFile; fileRef = 0DC9D6E325EA2940001D8F0A /* logo.png */; };
 		0DC9D6E725EA2B37001D8F0A /* UniversityTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0DC9D6E625EA2B37001D8F0A /* UniversityTableViewController.swift */; };
+		0DDB22ED25F2A72600F5C811 /* Universty.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0DDB22EC25F2A72600F5C811 /* Universty.swift */; };
+		0DDB22EF25F2ADA300F5C811 /* Service.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0DDB22EE25F2ADA300F5C811 /* Service.swift */; };
+		0DDB22F325F2AE9300F5C811 /* AuthenticationController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0DDB22F225F2AE9300F5C811 /* AuthenticationController.swift */; };
+		0DDB22F725F2B2D900F5C811 /* AppUserDefault.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0DDB22F625F2B2D900F5C811 /* AppUserDefault.swift */; };
+		0DDB22F925F318F900F5C811 /* APIRequest.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0DDB22F825F318F900F5C811 /* APIRequest.swift */; };
+		0DDB22FB25F36A1400F5C811 /* MakeToast.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0DDB22FA25F36A1400F5C811 /* MakeToast.swift */; };
+		0DDB22FD25F3A27500F5C811 /* APIEndpoints.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0DDB22FC25F3A27500F5C811 /* APIEndpoints.swift */; };
 		8A1737FA5922A0E48EF34FBD /* Pods_CoachAndLaw.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F9FDE8BE00B4AA093F857B34 /* Pods_CoachAndLaw.framework */; };
 /* End PBXBuildFile section */
 
@@ -38,7 +46,6 @@
 		0D3F573025E1838E00030A2E /* Registration.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = Registration.storyboard; sourceTree = "<group>"; };
 		0D3F573525E18C0800030A2E /* RegistrationViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = RegistrationViewController.swift; sourceTree = "<group>"; };
 		0D3F573725E18D0200030A2E /* VideoView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = VideoView.swift; sourceTree = "<group>"; };
-		0D3F573A25E191C000030A2E /* 1.mp4 */ = {isa = PBXFileReference; lastKnownFileType = file; path = 1.mp4; sourceTree = "<group>"; };
 		0D4183A325EA817B0028ADFE /* user-profile.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "user-profile.png"; sourceTree = "<group>"; };
 		0D4449D925E2C50600E85992 /* LoginViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoginViewController.swift; sourceTree = "<group>"; };
 		0D4449EC25DF659100E80FD4 /* CoachAndLaw.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = CoachAndLaw.app; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -53,10 +60,18 @@
 		0D444A1125DF74FE00E80FD4 /* SettingViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SettingViewController.swift; sourceTree = "<group>"; };
 		0D444A1425DF7CA800E80FD4 /* NotificationTableViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NotificationTableViewController.swift; sourceTree = "<group>"; };
 		0D444A1A25DF884300E80FD4 /* Helper.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Helper.swift; sourceTree = "<group>"; };
+		0DAC14A025EC7CAF00F566E7 /* logo_tran.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = logo_tran.png; sourceTree = "<group>"; };
 		0DC9D6DC25E9FD62001D8F0A /* logo_2.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = logo_2.png; sourceTree = "<group>"; };
 		0DC9D6E125EA10E1001D8F0A /* SignupViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SignupViewController.swift; sourceTree = "<group>"; };
 		0DC9D6E325EA2940001D8F0A /* logo.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = logo.png; sourceTree = "<group>"; };
 		0DC9D6E625EA2B37001D8F0A /* UniversityTableViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = UniversityTableViewController.swift; sourceTree = "<group>"; };
+		0DDB22EC25F2A72600F5C811 /* Universty.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Universty.swift; sourceTree = "<group>"; };
+		0DDB22EE25F2ADA300F5C811 /* Service.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Service.swift; sourceTree = "<group>"; };
+		0DDB22F225F2AE9300F5C811 /* AuthenticationController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AuthenticationController.swift; sourceTree = "<group>"; };
+		0DDB22F625F2B2D900F5C811 /* AppUserDefault.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AppUserDefault.swift; sourceTree = "<group>"; };
+		0DDB22F825F318F900F5C811 /* APIRequest.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = APIRequest.swift; sourceTree = "<group>"; };
+		0DDB22FA25F36A1400F5C811 /* MakeToast.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MakeToast.swift; sourceTree = "<group>"; };
+		0DDB22FC25F3A27500F5C811 /* APIEndpoints.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = APIEndpoints.swift; sourceTree = "<group>"; };
 		49855164DBD7922B1B3D377C /* Pods-CoachAndLaw.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-CoachAndLaw.release.xcconfig"; path = "Target Support Files/Pods-CoachAndLaw/Pods-CoachAndLaw.release.xcconfig"; sourceTree = "<group>"; };
 		F9FDE8BE00B4AA093F857B34 /* Pods_CoachAndLaw.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_CoachAndLaw.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
@@ -104,6 +119,7 @@
 		0D3F573925E191B400030A2E /* Resources */ = {
 			isa = PBXGroup;
 			children = (
+				0DAC14A025EC7CAF00F566E7 /* logo_tran.png */,
 				0D4183A325EA817B0028ADFE /* user-profile.png */,
 				0DC9D6E325EA2940001D8F0A /* logo.png */,
 				0DC9D6DC25E9FD62001D8F0A /* logo_2.png */,
@@ -140,7 +156,8 @@
 		0D4449EE25DF659100E80FD4 /* CoachAndLaw */ = {
 			isa = PBXGroup;
 			children = (
-				0D3F573A25E191C000030A2E /* 1.mp4 */,
+				0DDB22E925F2A6E500F5C811 /* Models */,
+				0DDB22E825F2A2FB00F5C811 /* DataLayer */,
 				0D3F573925E191B400030A2E /* Resources */,
 				0D444A1925DF884300E80FD4 /* Helper */,
 				0D444A1325DF753A00E80FD4 /* UI */,
@@ -220,6 +237,7 @@
 		0D444A1925DF884300E80FD4 /* Helper */ = {
 			isa = PBXGroup;
 			children = (
+				0DDB22FA25F36A1400F5C811 /* MakeToast.swift */,
 				0D444A1A25DF884300E80FD4 /* Helper.swift */,
 			);
 			path = Helper;
@@ -239,6 +257,42 @@
 				0DC9D6E625EA2B37001D8F0A /* UniversityTableViewController.swift */,
 			);
 			path = University;
+			sourceTree = "<group>";
+		};
+		0DDB22E825F2A2FB00F5C811 /* DataLayer */ = {
+			isa = PBXGroup;
+			children = (
+				0DDB22F125F2AE3800F5C811 /* Local */,
+				0DDB22F025F2AE1100F5C811 /* Remote */,
+			);
+			path = DataLayer;
+			sourceTree = "<group>";
+		};
+		0DDB22E925F2A6E500F5C811 /* Models */ = {
+			isa = PBXGroup;
+			children = (
+				0DDB22EC25F2A72600F5C811 /* Universty.swift */,
+				0DDB22EE25F2ADA300F5C811 /* Service.swift */,
+			);
+			path = Models;
+			sourceTree = "<group>";
+		};
+		0DDB22F025F2AE1100F5C811 /* Remote */ = {
+			isa = PBXGroup;
+			children = (
+				0DDB22F225F2AE9300F5C811 /* AuthenticationController.swift */,
+				0DDB22F825F318F900F5C811 /* APIRequest.swift */,
+				0DDB22FC25F3A27500F5C811 /* APIEndpoints.swift */,
+			);
+			path = Remote;
+			sourceTree = "<group>";
+		};
+		0DDB22F125F2AE3800F5C811 /* Local */ = {
+			isa = PBXGroup;
+			children = (
+				0DDB22F625F2B2D900F5C811 /* AppUserDefault.swift */,
+			);
+			path = Local;
 			sourceTree = "<group>";
 		};
 		24EBE5F758519EDA3589DB09 /* Frameworks */ = {
@@ -269,6 +323,7 @@
 				0D4449E825DF659100E80FD4 /* Sources */,
 				0D4449E925DF659100E80FD4 /* Frameworks */,
 				0D4449EA25DF659100E80FD4 /* Resources */,
+				3D1D793369FCA8F84F485756 /* [CP] Embed Pods Frameworks */,
 			);
 			buildRules = (
 			);
@@ -322,6 +377,7 @@
 				0D3F573125E1838E00030A2E /* Registration.storyboard in Resources */,
 				0DC9D6E425EA2940001D8F0A /* logo.png in Resources */,
 				0D4449F925DF659300E80FD4 /* Assets.xcassets in Resources */,
+				0DAC14A125EC7CAF00F566E7 /* logo_tran.png in Resources */,
 				0D4449F725DF659200E80FD4 /* Main.storyboard in Resources */,
 				0DC9D6DD25E9FD62001D8F0A /* logo_2.png in Resources */,
 			);
@@ -330,6 +386,23 @@
 /* End PBXResourcesBuildPhase section */
 
 /* Begin PBXShellScriptBuildPhase section */
+		3D1D793369FCA8F84F485756 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-CoachAndLaw/Pods-CoachAndLaw-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-CoachAndLaw/Pods-CoachAndLaw-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-CoachAndLaw/Pods-CoachAndLaw-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
 		FCF208AF205F209E317AB47D /* [CP] Check Pods Manifest.lock */ = {
 			isa = PBXShellScriptBuildPhase;
 			buildActionMask = 2147483647;
@@ -359,18 +432,25 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				0DDB22ED25F2A72600F5C811 /* Universty.swift in Sources */,
 				0D4449DA25E2C50600E85992 /* LoginViewController.swift in Sources */,
 				0D3F572C25E17DA200030A2E /* StartupViewController.swift in Sources */,
+				0DDB22FB25F36A1400F5C811 /* MakeToast.swift in Sources */,
 				0D444A1025DF74E300E80FD4 /* ProfileViewController.swift in Sources */,
 				0D4449F025DF659200E80FD4 /* AppDelegate.swift in Sources */,
+				0DDB22F325F2AE9300F5C811 /* AuthenticationController.swift in Sources */,
+				0DDB22F925F318F900F5C811 /* APIRequest.swift in Sources */,
 				0D444A0C25DF74A800E80FD4 /* ChatViewController.swift in Sources */,
 				0D3F573625E18C0800030A2E /* RegistrationViewController.swift in Sources */,
 				0D444A1225DF74FE00E80FD4 /* SettingViewController.swift in Sources */,
 				0D444A1525DF7CA800E80FD4 /* NotificationTableViewController.swift in Sources */,
+				0DDB22EF25F2ADA300F5C811 /* Service.swift in Sources */,
 				0DC9D6E225EA10E1001D8F0A /* SignupViewController.swift in Sources */,
 				0D444A0A25DF746600E80FD4 /* HomeViewController.swift in Sources */,
+				0DDB22FD25F3A27500F5C811 /* APIEndpoints.swift in Sources */,
 				0D3F572F25E1830400030A2E /* TabbarController.swift in Sources */,
 				0DC9D6E725EA2B37001D8F0A /* UniversityTableViewController.swift in Sources */,
+				0DDB22F725F2B2D900F5C811 /* AppUserDefault.swift in Sources */,
 				0D3F573825E18D0200030A2E /* VideoView.swift in Sources */,
 				0D444A1B25DF884300E80FD4 /* Helper.swift in Sources */,
 			);

@@ -25,7 +25,13 @@ class VideoView: UIView {
             player = AVPlayer(url: videoURL)
             playerLayer = AVPlayerLayer(player: player)
             playerLayer?.frame = bounds
-            playerLayer?.videoGravity = AVLayerVideoGravity.resize
+          //  playerLayer?.videoGravity = AVLayerVideoGravity.resize
+          //  playerLayer!.videoGravity = AVLayerVideoGravity.resizeAspect
+            
+          //  playerLayer.frame = (featureView13?.bounds)!
+            playerLayer!.videoGravity = .resizeAspectFill
+        //    playerLayer!.contentsGravity = .resizeAspectFill
+            
             if let playerLayer = self.playerLayer {
                 layer.addSublayer(playerLayer)
             }
