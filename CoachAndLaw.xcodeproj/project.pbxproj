@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		0D0F199025F64C6D0000343F /* MentorTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0D0F198E25F64C6D0000343F /* MentorTableViewCell.swift */; };
 		0D3F572C25E17DA200030A2E /* StartupViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0D3F572B25E17DA200030A2E /* StartupViewController.swift */; };
 		0D3F572F25E1830400030A2E /* TabbarController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0D3F572E25E1830400030A2E /* TabbarController.swift */; };
 		0D3F573125E1838E00030A2E /* Registration.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 0D3F573025E1838E00030A2E /* Registration.storyboard */; };
@@ -41,6 +42,7 @@
 
 /* Begin PBXFileReference section */
 		09A1D89022D8114DC7969F8B /* Pods-CoachAndLaw.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-CoachAndLaw.debug.xcconfig"; path = "Target Support Files/Pods-CoachAndLaw/Pods-CoachAndLaw.debug.xcconfig"; sourceTree = "<group>"; };
+		0D0F198E25F64C6D0000343F /* MentorTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MentorTableViewCell.swift; sourceTree = "<group>"; };
 		0D3F572B25E17DA200030A2E /* StartupViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StartupViewController.swift; sourceTree = "<group>"; };
 		0D3F572E25E1830400030A2E /* TabbarController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TabbarController.swift; sourceTree = "<group>"; };
 		0D3F573025E1838E00030A2E /* Registration.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = Registration.storyboard; sourceTree = "<group>"; };
@@ -190,6 +192,7 @@
 			isa = PBXGroup;
 			children = (
 				0D444A0925DF746600E80FD4 /* HomeViewController.swift */,
+				0D0F198E25F64C6D0000343F /* MentorTableViewCell.swift */,
 			);
 			path = Home;
 			sourceTree = "<group>";
@@ -448,6 +451,7 @@
 				0DC9D6E225EA10E1001D8F0A /* SignupViewController.swift in Sources */,
 				0D444A0A25DF746600E80FD4 /* HomeViewController.swift in Sources */,
 				0DDB22FD25F3A27500F5C811 /* APIEndpoints.swift in Sources */,
+				0D0F199025F64C6D0000343F /* MentorTableViewCell.swift in Sources */,
 				0D3F572F25E1830400030A2E /* TabbarController.swift in Sources */,
 				0DC9D6E725EA2B37001D8F0A /* UniversityTableViewController.swift in Sources */,
 				0DDB22F725F2B2D900F5C811 /* AppUserDefault.swift in Sources */,
